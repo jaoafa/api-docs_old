@@ -22,3 +22,17 @@ API提供はjao Minecraft Server開発部が行います。問い合わせは開
 ### Other Restriction
 
 開発部は開発部の判断により特定IPからのアクセスを禁止、またはレートリミットを無効化する処置を行うことができます。
+
+## Resources
+
+- [Users](/api-docs/resources/users)
+- [Cities](/api-docs/resources/cities)
+
+## Object
+
+- [User](/api-docs/object/user)
+- [City](/api-docs/object/city)
+
+## Topics
+
+- [Error-Response](/api-docs/topics/error-response)
