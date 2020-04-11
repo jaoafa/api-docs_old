@@ -11,7 +11,7 @@ jao Minecraft Server Minecraftサービスにログインしたことのある�
 
 **GET** `/users`
 
-[ユーザオブジェクト](/object/user)を返します。
+[ユーザオブジェクト](/api-docs/object/user)を返します。
 
 ### Request Parameters
 
@@ -27,5 +27,5 @@ jao Minecraft Server Minecraftサービスにログインしたことのある�
 
 |Field|Description|Example|Remarks|
 |:-|:-|:-|:-|
-|status|Request status (boolean)|true|falseの場合、[エラーレスポンス](/topics/error-response)が使用されます|
-|data|[ユーザーオブジェクト](/object/user)|||
+|status|Request status (boolean)|true|falseの場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます|
+|data|[ユーザーオブジェクト](/api-docs/object/user)|||
