@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # jao Minecraft Server API Documentation
 
 jao Minecraft Serverおよびそれに関連するサービスの情報を取得できるAPIのリファレンスです。  
