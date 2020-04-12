@@ -54,6 +54,13 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 | :------- | :----------------------- | :------ | :------------------------------------------------------------------------------ |
 | `status` | Request status (boolean) | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 
+### Remarks
+
+- 認証コードは [jaoafa/MyMaid3](https://github.com/jaoafa/MyMaid3) に実装されている `/getuserkey` コマンドにて取得できます。
+- この API で使用された認証コードはリクエスト後に「使用済み」として無効化され、他の API で再利用することができない点を注意してください。無効化後、再取得することで有効な認証コードが払い出されます。
+- 自治体名称、自治体名称読みのいずれかがが既存の自治体と同じ場合エラーとなります。(409 conflictを返します)
+- 利用者情報は認証コードから取得します。自治体管理者はこの利用者情報より設定します。
+
 ## Approval City Request
 
 - **POST** `/cities/approval/{request.type}/{cities.id}`
@@ -75,7 +82,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ## Reject City Request
 
-- **POST** `/cities/reject`
+- **POST** `/cities/reject/{request.type}/{request.id}`
 
 自治体のリクエストを否認します。
 
