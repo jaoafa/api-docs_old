@@ -8,6 +8,7 @@ jao Minecraft Server Minecraft サービスにログインしたことのある�
 ## Get User
 
 - **GET** `/users`
+- **GET** `/users/{minecraft.id}`
 - **GET** `/users/{minecraft.uuid}`
 - **GET** `/users/{discord.id}`
 
