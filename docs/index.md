@@ -4,6 +4,7 @@ layout: default
 
 # jao Minecraft Server API Documentation
 
+
 jao Minecraft Serverおよびそれに関連するサービスの情報を取得できるAPIのリファレンスです。  
 基本的に外部からこのAPIが利用されることは想定しておりません。あくまでサービス提供の上で内部的に利用するAPIですので、大幅な仕様変更が事前予告なく行われる可能性があります。
 
