@@ -2,17 +2,17 @@
 
 - [TopPage](/api-docs/)
 
-jao Minecraft Server Minecraftサービスにおいて運営によって認可され、登録された自治体の情報オブジェクト
+jao Minecraft Server Minecraft サービスにおいて運営によって認可され、登録された自治体の情報オブジェクト
 
-|Field|Type|Description|Example|Remarks|
-|:-|:-|:-|:-|:-|
-|`id`|`int`|自治体ID|`1`||
-|`name`|`string`|自治体名称|`爆新地`||
-|`namekana`|`string`|自治体名称読み|`ばくしんち`||
-|`mcid`|`string`|自治体管理者プレイヤー名|`jaotan`||
-|`uuid`|`string`|自治体管理者UUID|`xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`|nullable|
-|`discordid`|`string`|自治体管理者DiscordユーザID|`222018383556771840`||
-|`summary`|`string`|概要|`Jao_Afaワールドの中心に位置する運営が管理する自治体`|nullable|
-|`name_origin`|`string`|名称の由来|`爆発の始まり。爆発の根源。中心地。つまり爆心地。新しいので爆新地。`|nullable|
-|`blocknum`|`int`|表面ブロック数|`1048576`||
-|`remarks`|`string`|備考|`null`|nullable|
+| Field         | Type     | Description                    | Example                                                              | Remarks  |
+| :------------ | :------- | :----------------------------- | :------------------------------------------------------------------- | :------- |
+| `id`          | `int`    | 自治体 ID                      | `1`                                                                  |          |
+| `name`        | `string` | 自治体名称                     | `爆新地`                                                             |          |
+| `namekana`    | `string` | 自治体名称読み                 | `ばくしんち`                                                         |          |
+| `mcid`        | `string` | 自治体管理者プレイヤー名       | `jaotan`                                                             |          |
+| `uuid`        | `string` | 自治体管理者 UUID              | `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`                               | nullable |
+| `discordid`   | `string` | 自治体管理者 Discord ユーザ ID | `222018383556771840`                                                 |          |
+| `summary`     | `string` | 概要                           | `Jao_Afaワールドの中心に位置する運営が管理する自治体`                | nullable |
+| `name_origin` | `string` | 名称の由来                     | `爆発の始まり。爆発の根源。中心地。つまり爆心地。新しいので爆新地。` | nullable |
+| `blocknum`    | `int`    | 表面ブロック数                 | `1048576`                                                            |          |
+| `remarks`     | `string` | 備考                           | `null`                                                               | nullable |
