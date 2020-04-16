@@ -23,9 +23,11 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ### Response
 
-| Field    | Description                                 | Example | Remarks                                                                         |
-| :------- | :------------------------------------------ | :------ | :------------------------------------------------------------------------------ |
-| `data`   | [自治体オブジェクト](/api-docs/object/city) |         |                                                                                 |
+[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+
+| Field  | Description                                 | Example | Remarks |
+| :----- | :------------------------------------------ | :------ | :------ |
+| `data` | [自治体オブジェクト](/api-docs/object/city) |         |         |
 
 ## Create City (Request)
 
@@ -52,7 +54,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ### Response
 
-[基本レスポンス](/api-docs/)が返却されます。
+[基本レスポンス](/api-docs/object/basic-response)が返却されます。
 
 ### Remarks
 
@@ -77,9 +79,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ## Response
 
-| Field    | Description              | Example | Remarks                                                                         |
-| :------- | :----------------------- | :------ | :------------------------------------------------------------------------------ |
-| `status` | Request status (boolean) | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
+[基本レスポンス](/api-docs/object/basic-response)が返却されます。
 
 ## Reject City Request
 
@@ -96,9 +96,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ### Response
 
-| Field    | Description              | Example | Remarks                                                                         |
-| :------- | :----------------------- | :------ | :------------------------------------------------------------------------------ |
-| `status` | Request status (boolean) | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
+[基本レスポンス](/api-docs/object/basic-response)が返却されます。
 
 ## Update City
 

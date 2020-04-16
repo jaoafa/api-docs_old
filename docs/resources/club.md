@@ -14,15 +14,17 @@ clubjaoafa 関連 API
 
 このエンドポイントのパラメータはすべて Optional ですが、いずれかのパラメータがなければなりません。
 
-| Field     | Description | Example                          | Remarks         |
-| :-------- | :---------- | :------------------------------- | :-------------- |
-| usertoken | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
+| Field       | Description | Example                          | Remarks         |
+| :---------- | :---------- | :------------------------------- | :-------------- |
+| `usertoken` | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
 
 ### Response
 
-| Field  | Description                                                        | Example | Remarks                                                                         |
-| :----- | :----------------------------------------------------------------- | :------ | :------------------------------------------------------------------------------ |
-| data   | [clubjaoafa アカウントオブジェクト](/api-docs/object/club-account) |         |                                                                                 |
+[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+
+| Field  | Description                                                        | Example | Remarks |
+| :----- | :----------------------------------------------------------------- | :------ | :------ |
+| `data` | [clubjaoafa アカウントオブジェクト](/api-docs/object/club-account) |         |         |
 
 ## Get Token
 
@@ -32,17 +34,19 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-| Field     | Description                                | Example  | Remarks                               |
-| :-------- | :----------------------------------------- | :------- | :------------------------------------ |
-| username  | MinecraftID or MinecraftUUID (with hyphen) | X4Z      |                                       |
-| password  | Password hash value                        | xxxxx... | sha256 など。フロントエンド側にお任せ |
-| recaptcha | Google reCAPTCHA Token                     |          |                                       |
+| Field       | Description                                | Example    | Remarks                               |
+| :---------- | :----------------------------------------- | :--------- | :------------------------------------ |
+| `username`  | MinecraftID or MinecraftUUID (with hyphen) | `X4Z`      |                                       |
+| `password`  | Password hash value                        | `xxxxx...` | sha256 など。フロントエンド側にお任せ |
+| `recaptcha` | Google reCAPTCHA Token                     |            |                                       |
 
 ### Response
 
-| Field     | Description              | Example                          | Remarks                                                                         |
-| :-------- | :----------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
-| usertoken | UserToken                | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。                                                                 |
+[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+
+| Field       | Description | Example                          | Remarks         |
+| :---------- | :---------- | :------------------------------- | :-------------- |
+| `usertoken` | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
 
 ### Remarks
 
@@ -57,14 +61,16 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-| Field     | Description                                | Example  | Remarks                               |
-| :-------- | :----------------------------------------- | :------- | :------------------------------------ |
-| username  | MinecraftID or MinecraftUUID (with hyphen) | X4Z      |                                       |
-| password  | Password hash value                        | xxxxx... | sha256 など。フロントエンド側にお任せ |
-| recaptcha | Google reCAPTCHA Token                     |          |                                       |
+| Field       | Description                                | Example  | Remarks                               |
+| :---------- | :----------------------------------------- | :------- | :------------------------------------ |
+| `username`  | MinecraftID or MinecraftUUID (with hyphen) | X4Z      |                                       |
+| `password`  | Password hash value                        | xxxxx... | sha256 など。フロントエンド側にお任せ |
+| `recaptcha` | Google reCAPTCHA Token                     |          |                                       |
 
 ### Response
 
-| Field     | Description              | Example                          | Remarks                                                                         |
-| :-------- | :----------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
-| usertoken | UserToken                | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。                                                                 |
+[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+
+| Field       | Description | Example                            | Remarks         |
+| :---------- | :---------- | :--------------------------------- | :-------------- |
+| `usertoken` | UserToken   | `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` | 32 桁、英数字。 |

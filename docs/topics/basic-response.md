@@ -10,3 +10,5 @@
 | status  | Response status   | true    | 成功時は true が、失敗時は false |
 | code    | HTTP status code  | 200     |                                  |
 | version | API Minor Version |         | GitHub の Commit ID              |
+
+`status`が`false`の場合、[エラーレスポンス](/api-docs/topics/error-response)が返却されます。
