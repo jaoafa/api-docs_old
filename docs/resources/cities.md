@@ -25,7 +25,6 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 | Field    | Description                                 | Example | Remarks                                                                         |
 | :------- | :------------------------------------------ | :------ | :------------------------------------------------------------------------------ |
-| `status` | Request status (boolean)                    | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 | `data`   | [自治体オブジェクト](/api-docs/object/city) |         |                                                                                 |
 
 ## Create City (Request)
@@ -53,9 +52,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ### Response
 
-| Field    | Description              | Example | Remarks                                                                         |
-| :------- | :----------------------- | :------ | :------------------------------------------------------------------------------ |
-| `status` | Request status (boolean) | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
+[基本レスポンス](/api-docs/)が返却されます。
 
 ### Remarks
 

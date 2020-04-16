@@ -14,7 +14,7 @@ API 提供は jao Minecraft Server 開発部が行います。問い合わせは
 - BaseURL: `https://api.jaoafa.com/`
 - Available Version: `v1` (`https://api.jaoafa.com/v1/`)
 - バージョンを指定せずリクエストすることもできます。その場合、最新バージョンが選択されます。
-- GETリクエストにおいて、同一エンドポイントに対してのリクエストで同一フィールドを複数指定した場合、`?`で指定されたフィールドを優先して使用します。
+- GET リクエストにおいて、同一エンドポイントに対してのリクエストで同一フィールドを複数指定した場合、`?`で指定されたフィールドを優先して使用します。
   - `v1/users/X4Z?mcid=mine_book000`: mcid=`mine_book000`のデータを取得
   - `v1/users/X4Z?uuid=xxxxx`: uuid=`xxxxx`のデータを取得
 
@@ -36,7 +36,9 @@ API 提供は jao Minecraft Server 開発部が行います。問い合わせは
 
 - [User](/api-docs/object/user)
 - [City](/api-docs/object/city)
+- [Club-User](/api-docs/object/club-user)
 
 ## Topics
 
+- [Basic-Response](/api-docs/topics/basic-response)
 - [Error-Response](/api-docs/topics/error-response)

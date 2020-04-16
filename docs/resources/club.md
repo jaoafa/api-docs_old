@@ -22,7 +22,6 @@ clubjaoafa 関連 API
 
 | Field  | Description                                                        | Example | Remarks                                                                         |
 | :----- | :----------------------------------------------------------------- | :------ | :------------------------------------------------------------------------------ |
-| status | Request status (boolean)                                           | true    | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 | data   | [clubjaoafa アカウントオブジェクト](/api-docs/object/club-account) |         |                                                                                 |
 
 ## Get Token
@@ -43,7 +42,6 @@ clubjaoafa 関連 API
 
 | Field     | Description              | Example                          | Remarks                                                                         |
 | :-------- | :----------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
-| status    | Request status (boolean) | true                             | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 | usertoken | UserToken                | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。                                                                 |
 
 ### Remarks
@@ -69,5 +67,4 @@ clubjaoafa 関連 API
 
 | Field     | Description              | Example                          | Remarks                                                                         |
 | :-------- | :----------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
-| status    | Request status (boolean) | true                             | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 | usertoken | UserToken                | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。                                                                 |

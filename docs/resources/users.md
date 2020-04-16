@@ -31,5 +31,4 @@ jao Minecraft Server Minecraft サービスにログインしたことのある�
 
 | Field    | Description                                   | Example | Remarks                                                                         |
 | :------- | :-------------------------------------------- | :------ | :------------------------------------------------------------------------------ |
-| `status` | Request status (boolean)                      | `true`  | false の場合、[エラーレスポンス](/api-docs/topics/error-response)が使用されます |
 | `data`   | [ユーザーオブジェクト](/api-docs/object/user) |         |                                                                                 |
