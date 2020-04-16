@@ -20,7 +20,7 @@ clubjaoafa 関連 API
 
 ### Response
 
-[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
 
 | Field  | Description                                                        | Example | Remarks |
 | :----- | :----------------------------------------------------------------- | :------ | :------ |
@@ -42,7 +42,7 @@ clubjaoafa 関連 API
 
 ### Response
 
-[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
 
 | Field       | Description | Example                          | Remarks         |
 | :---------- | :---------- | :------------------------------- | :-------------- |
@@ -69,7 +69,7 @@ clubjaoafa 関連 API
 
 ### Response
 
-[基本レスポンス](/api-docs/object/basic-response)に加え、以下が返却されます。
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
 
 | Field       | Description | Example                            | Remarks         |
 | :---------- | :---------- | :--------------------------------- | :-------------- |
