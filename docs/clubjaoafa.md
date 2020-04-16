@@ -70,7 +70,7 @@ etc.
 
 ## バックグラウンド
 
-- DB clubjaoafa - id, uuid, token, group, token_expire_at, created_at, updated_at
+- DB clubjaoafa - id, uuid, token, clubgroup, expire_at, created_at, updated_at
 - **group**: clubjaoafaにおける権限グループ。通常ユーザーはDVR限らずdefault, 運営は管理部・モデレータ問わずadmin
 - adminは自分が管理権限のない自治体の情報を変更することが可能。forceオプションで審議に通さずにそのままデータベースに反映可能
 - APIは`api.jaoafa.com/v1/club`以下でホスト
