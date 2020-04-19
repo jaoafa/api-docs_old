@@ -100,7 +100,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ## Update City
 
-- **PUT** `/cities/{cities.id}`
+- **PATCH** `/cities/{cities.id}`
 
 自治体情報を更新します。
 
