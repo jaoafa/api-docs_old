@@ -2,7 +2,8 @@
 
 - [TopPage](/api-docs/)
 
-clubjaoafa 関連 API
+clubjaoafa 関連 API  
+[/clubjaoafa](/api-docs/clubjaoafa)も参考。
 
 ## Get User (From UserToken)
 
@@ -34,19 +35,19 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-| Field       | Description                                | Example    | Remarks                               |
-| :---------- | :----------------------------------------- | :--------- | :------------------------------------ |
-| `username`  | MinecraftID or MinecraftUUID (with hyphen) | `X4Z`      |                                       |
-| `password`  | Password hash value                        | `xxxxx...` | sha256 など。フロントエンド側にお任せ |
-| `recaptcha` | Google reCAPTCHA Token                     |            |                                       |
+| Field       | Description                                | Example    | Remarks |
+| :---------- | :----------------------------------------- | :--------- | :------ |
+| `username`  | MinecraftID or MinecraftUUID (with hyphen) | `X4Z`      |         |
+| `password`  | Password                                   | `xxxxx...` |         |
+| `recaptcha` | Google reCAPTCHA Token                     |            |         |
 
 ### Response
 
 [基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
 
-| Field       | Description | Example                          | Remarks         |
-| :---------- | :---------- | :------------------------------- | :-------------- |
-| `usertoken` | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
+| Field       | Description | Example                            | Remarks         |
+| :---------- | :---------- | :--------------------------------- | :-------------- |
+| `usertoken` | UserToken   | `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` | 32 桁、英数字。 |
 
 ### Remarks
 
@@ -61,11 +62,11 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-| Field       | Description                                | Example  | Remarks                               |
-| :---------- | :----------------------------------------- | :------- | :------------------------------------ |
-| `username`  | MinecraftID or MinecraftUUID (with hyphen) | X4Z      |                                       |
-| `password`  | Password hash value                        | xxxxx... | sha256 など。フロントエンド側にお任せ |
-| `recaptcha` | Google reCAPTCHA Token                     |          |                                       |
+| Field       | Description                                | Example    | Remarks |
+| :---------- | :----------------------------------------- | :--------- | :------ |
+| `username`  | MinecraftID or MinecraftUUID (with hyphen) | `X4Z`      |         |
+| `password`  | Password                                   | `xxxxx...` |         |
+| `recaptcha` | Google reCAPTCHA Token                     |            |         |
 
 ### Response
 

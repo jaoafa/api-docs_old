@@ -31,6 +31,7 @@ API 提供は jao Minecraft Server 開発部が行います。問い合わせは
 
 - [Users](/api-docs/resources/users)
 - [Cities](/api-docs/resources/cities)
+- [Club](/api-docs/resources/club)
 
 ## Object
 
