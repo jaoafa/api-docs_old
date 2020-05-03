@@ -13,8 +13,6 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-このエンドポイントのパラメータはすべて Optional ですが、いずれかのパラメータがなければなりません。
-
 | Field       | Description | Example                          | Remarks         |
 | :---------- | :---------- | :------------------------------- | :-------------- |
 | `usertoken` | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
@@ -84,10 +82,31 @@ clubjaoafa 関連 API
 
 ### Request Parameters
 
-| Field       | Description            | Example  | Remarks |
-| :---------- | :--------------------- | :------- | :------ |
-| `nickname`  | Nickname               | `Zakuro` |         |
-| `recaptcha` | Google reCAPTCHA Token |          |         |
+| Field       | Description            | Example                          | Remarks         |
+| :---------- | :--------------------- | :------------------------------- | :-------------- |
+| `nickname`  | Nickname               | `Zakuro`                         |                 |
+| `usertoken` | UserToken              | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
+| `recaptcha` | Google reCAPTCHA Token |                                  |                 |
+
+### Response
+
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
+
+| Field      | Description | Example  | Remarks                                        |
+| :--------- | :---------- | :------- | :--------------------------------------------- |
+| `nickname` | Nickname    | `Zakuro` | 新しいニックネーム。前後空白などが省かれたもの |
+
+## Logout
+
+- **POST** `/club/logout`
+
+ログアウトします。
+
+### Request Parameters
+
+| Field       | Description | Example                          | Remarks         |
+| :---------- | :---------- | :------------------------------- | :-------------- |
+| `usertoken` | UserToken   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | 32 桁、英数字。 |
 
 ### Response
 
