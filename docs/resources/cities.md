@@ -8,6 +8,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 - **GET** `/cities`
 - **GET** `/cities/{cities.id}`
+- **GET** `/cities/{cities.owner.uuid}`
 
 [自治体オブジェクト](/api-docs/object/city)を返します。
 
@@ -15,11 +16,12 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 このエンドポイントのパラメータはすべて Optional です。
 
-| Field         | Description | Example | Remarks |
-| :------------ | :---------- | :------ | :------ |
-| `{cities.id}` | 自治体 ID   | `1`     |         |
-| `id`          | 自治体 ID   | `1`     |         |
-| `name`        | 自治体名    | 爆新地  |         |
+| Field                 | Description       | Example                                | Remarks |
+| :-------------------- | :---------------- | :------------------------------------- | :------ |
+| `{cities.id}`         | 自治体 ID         | `1`                                    |         |
+| `{cities.owner.uuid}` | 自治体管理者 UUID | `5799296a-d1ec-4252-93bd-440bb9caa65c` |         |
+| `id`                  | 自治体 ID         | `1`                                    |         |
+| `name`                | 自治体名          | 爆新地                                 |         |
 
 ### Response
 
