@@ -75,3 +75,20 @@ clubjaoafa 関連 API
 | Field       | Description | Example                            | Remarks         |
 | :---------- | :---------- | :--------------------------------- | :-------------- |
 | `usertoken` | UserToken   | `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` | 32 桁、英数字。 |
+
+## Nickname
+
+- **POST** `/club/nickname`
+
+ニックネームを設定します。
+
+### Request Parameters
+
+| Field       | Description            | Example  | Remarks |
+| :---------- | :--------------------- | :------- | :------ |
+| `nickname`  | Nickname               | `Zakuro` |         |
+| `recaptcha` | Google reCAPTCHA Token |          |         |
+
+### Response
+
+[基本レスポンス](/api-docs/topics/basic-response)が返却されます。
