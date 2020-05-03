@@ -52,7 +52,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 | `count`            | ブロック数                  | `1048576`                                                                                               |                                                                                                                        |
 | `reason`           | 規定ブロックを超える理由    |                                                                                                         |
 | `remarks`          | 備考                        |                                                                                                         |
-| `token`            | Google Recapture のトークン |                                                                                                         |                                                                                                                        |
+| `recaptcha`        | Google Recaptcha のトークン |                                                                                                         |                                                                                                                        |
 | `force`            | 強制的に追加するか          | `false`                                                                                                 | この引数を`true`にするには apikey パラメータが必要です。`true`にするとこの申請を即時に承認されたものとして登録します。 |
 | `apikey`           | API Key                     |                                                                                                         | 開発部が発行する`apikey`のみ。基本的に運営のみに発行します。                                                           |
 

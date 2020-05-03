@@ -36,6 +36,8 @@ API 提供は jao Minecraft Server 開発部が行います。問い合わせは
 ## Object
 
 - [User](/api-docs/object/user)
+  - [MCBans](/api-docs/object/user-mcbans)
+  - [MCBans-Ban](/api-docs/object/user-mcbans-ban)
 - [City](/api-docs/object/city)
 - [Club-User](/api-docs/object/club-user)
 

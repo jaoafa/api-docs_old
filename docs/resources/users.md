@@ -34,3 +34,57 @@ jao Minecraft Server Minecraft サービスにログインしたことのある�
 | Field  | Description                                   | Example | Remarks |
 | :----- | :-------------------------------------------- | :------ | :------ |
 | `data` | [ユーザーオブジェクト](/api-docs/object/user) |         |         |
+
+## Get MCBans user data
+
+- **GET** `/users/mcbans`
+- **GET** `/users/mcbans/{minecraft.uuid}`
+
+[MCBans ユーザデータオブジェクト](/api-docs/object/user-mcbans)を返します。
+
+### Request Parameters
+
+このエンドポイントのパラメータはすべて Optional ですが、いずれかのパラメータがなければなりません。
+
+| Field              | Description                  | Example                                | Remarks |
+| :----------------- | :--------------------------- | :------------------------------------- | :------ |
+| `{minecraft.uuid}` | Minecraft UUID (with hyphen) | `5799296a-d1ec-4252-93bd-440bb9caa65c` |         |
+| `uuid`             | Minecraft UUID (with hyphen) | `5799296a-d1ec-4252-93bd-440bb9caa65c` |         |
+
+### Response
+
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
+
+| Field  | Description                                                     | Example | Remarks |
+| :----- | :-------------------------------------------------------------- | :------ | :------ |
+| `data` | [MCBans ユーザデータオブジェクト](/api-docs/object/user-mcbans) |         |         |
+
+### Remarks
+
+- jao Minecraft Server 側で定期的にデータを取得し記録しています。そのため、最新のデータでない可能性があります。
+- 最新のデータを必要とする場合は MCBans の公式 API を利用してください。
+
+## Get MCBans ban data
+
+- **GET** `/users/mcbans/ban/{mcbans.banid}`
+
+[MCBans Ban データオブジェクト](/api-docs/object/user-mcbans-ban)を返します。
+
+### Request Parameters
+
+| Field            | Description   | Example | Remarks |
+| :--------------- | :------------ | :------ | :------ |
+| `{mcbans.banid}` | MCBans Ban ID | `1`     |         |
+
+### Response
+
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
+
+| Field  | Description                                                       | Example | Remarks |
+| :----- | :---------------------------------------------------------------- | :------ | :------ |
+| `data` | [MCBans Ban データオブジェクト](/api-docs/object/user-mcbans-ban) |         |         |
+
+### Remarks
+
+- jao Minecraft Server 側で定期的にデータを取得し記録しています。そのため、最新のデータでない可能性があります。
+- 最新のデータを必要とする場合は MCBans の公式 API を利用してください。
