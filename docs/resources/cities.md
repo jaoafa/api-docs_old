@@ -13,7 +13,7 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 
 ### Request Parameters
 
-このエンドポイントのパラメータはすべて Optional ですが、いずれかのパラメータがなければなりません。
+このエンドポイントのパラメータはすべて Optional です。
 
 | Field         | Description | Example | Remarks |
 | :------------ | :---------- | :------ | :------ |
@@ -28,6 +28,8 @@ jao Minecraft Server Minecraft サービスにおいて運営によって認可�
 | Field  | Description                                 | Example | Remarks |
 | :----- | :------------------------------------------ | :------ | :------ |
 | `data` | [自治体オブジェクト](/api-docs/object/city) |         |         |
+
+パラメーターが指定されていない場合、全ての登録自治体の自治体オブジェクトを配列として返します。
 
 ## Create City (Request)
 
