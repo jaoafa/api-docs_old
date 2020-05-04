@@ -88,3 +88,23 @@ jao Minecraft Server Minecraft サービスにログインしたことのある�
 
 - jao Minecraft Server 側で定期的にデータを取得し記録しています。そのため、最新のデータでない可能性があります。
 - 最新のデータを必要とする場合は MCBans の公式 API を利用してください。
+
+## jao Super Achievement2 getted achievements
+
+- **GET** `/users/jsa/{minecraft.uuid}`
+
+[jao Super Achievement2](https://github.com/jaoafa/jao-Super-Achievement2) の解除済み実績を配列([jSA 実績オブジェクト](/api-docs/object/jsa-achievement))として返します。
+
+### Request Parameters
+
+| Field              | Description                  | Example                                | Remarks |
+| :----------------- | :--------------------------- | :------------------------------------- | :------ |
+| `{minecraft.uuid}` | Minecraft UUID (with hyphen) | `5799296a-d1ec-4252-93bd-440bb9caa65c` |         |
+
+### Response
+
+[基本レスポンス](/api-docs/topics/basic-response)に加え、以下が返却されます。
+
+| Field  | Description                                                     | Example | Remarks |
+| :----- | :-------------------------------------------------------------- | :------ | :------ |
+| `data` | [jSA 実績オブジェクト](/api-docs/object/jsa-achievement) の配列 |         |         |
