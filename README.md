@@ -1,3 +1,3 @@
 # jao Minecraft Server API Documentation
 
-https://jaoafa.github.io/api-docs/
+https://jaoafa.github.io/api-docs_old/
