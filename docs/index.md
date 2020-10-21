@@ -32,19 +32,19 @@ API 提供は jao Minecraft Server 開発部が行います。問い合わせは
 
 ## Resources
 
-- [Users](/api-docs/resources/users)
-- [Cities](/api-docs/resources/cities)
-- [Club](/api-docs/resources/club)
+- [Users](/api-docs_old/resources/users)
+- [Cities](/api-docs_old/resources/cities)
+- [Club](/api-docs_old/resources/club)
 
 ## Object
 
-- [User](/api-docs/object/user)
-  - [MCBans](/api-docs/object/user-mcbans)
-  - [MCBans-Ban](/api-docs/object/user-mcbans-ban)
-- [City](/api-docs/object/city)
-- [Club-User](/api-docs/object/club-user)
+- [User](/api-docs_old/object/user)
+  - [MCBans](/api-docs_old/object/user-mcbans)
+  - [MCBans-Ban](/api-docs_old/object/user-mcbans-ban)
+- [City](/api-docs_old/object/city)
+- [Club-User](/api-docs_old/object/club-user)
 
 ## Topics
 
-- [Basic-Response](/api-docs/topics/basic-response)
-- [Error-Response](/api-docs/topics/error-response)
+- [Basic-Response](/api-docs_old/topics/basic-response)
+- [Error-Response](/api-docs_old/topics/error-response)
